@@ -61,7 +61,6 @@ spec:
       image: k8s.gcr.io/kustomize/kustomize:v3.8.7
       workingDir: $(workspaces.source.path)
       script: |
-        #cd $(params.DEPLOY_REPO_NAME)/overlays/$(params.ENV)
         pwd
         ls 
         cd overlays/$(params.ENV)
