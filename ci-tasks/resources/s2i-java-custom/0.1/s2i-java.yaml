@@ -3,8 +3,7 @@ kind: Task
 metadata:
   name: s2i-java-custom
   annotations:
-    description: |
-      Clones a Git repository and builds and pushes a container image using S2I and a Java builder image.
+    description: Clones a Git repository and builds and pushes a container image using S2I and a Java builder image.
 spec:
   description: >-
     s2i-java task clones a Git repository and builds and pushes a container
