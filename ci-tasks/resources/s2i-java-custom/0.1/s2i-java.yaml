@@ -1,10 +1,10 @@
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
+  name: s2i-java-custom
   annotations:
     description: |
       Clones a Git repository and builds and pushes a container image using S2I and a Java builder image.
-  name: s2i-java-custom
 spec:
   description: >-
     s2i-java task clones a Git repository and builds and pushes a container
